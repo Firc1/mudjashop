@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+body {
+    color: #f1f1f1;
+    font-family: "Open Sans", sans-serif;/**/
+}
+a {
+    text-decoration: none;
+    color: #f1f1f1;
+    margin: 0 auto;
+    width: 80%;
+}
+.centerBlock {
+   
+    margin: 0 auto;
+    width: 70%;
+}
+header {
+    margin-bottom: 1px;
+    padding: 20px;
+    background-color: #313131;
+}
+header .centerBlock {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+header .centerBlock #logo h1 a {
+    font-size: 45px;
+}
+header .centerBlock #logo h1 a span {
+    color: #ca3e47;
+}
+header .centerBlock nav ul {
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 14px;
+}
+header .centerBlock nav ul li {
+    margin: 0 20px;
+}
+header .centerBlock nav ul li a {
+    font-size: 24px;
+}
+header .centerBlock nav ul li a:hover {
+    color: #ca3e47;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.line {
+    width: 50px;
+    margin: 10px auto;
+    background-color: #ca3e47;
+    border: 2px solid #ca3e47;
+    display: none;
+}
+
+footer {
+    background-color: #313131;
+    padding: 15px 0;
+}
+footer .centerBlock {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+footer .centerBlock h3 {
+    font-size: 22px;
+    text-transform: uppercase;
+}
+footer .centerBlock h3 span {
+    color: #ca3e47;
+}
+footer .centerBlock .links a:nth-child(2) {
+    margin: 0 40px;
+}
+footer .centerBlock .links a i {
+    font-size: 30px;
+}
+footer .centerBlock .links a i.fa-sass {
+    color: #c69;
+}
+footer .centerBlock .links a i.fa-file-code {
+    color: #264de4;
+}
+
+/*Proizvodi*/
+.proizvodi{
+    display :flex ;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.card {
+    background-color: #313131;
+    height: 525px;
+    width: 350px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 0px;
+}
+.card-img img {
+    width: 100%;
+    background-size: cover;
+    border-bottom: 2px solid #1C2833;
+}
+.card-text {
+    color: #f1f1f1;
+    text-align: left;
+    padding: 10px 0px 0px 25px;
+}
+.card-btn {
+    text-align: right;
+    margin-top: 50px;
+}
+.card-btn a {
+    background-color: #ca3e47;
+    color: #1C2833;
+    padding: 15px;
+    border-top-left-radius: 15px;
+    transition: all;
+}
+.conteiner{
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 20px 50px;
+}
+/*linija*/
+h1{
+    color:black;
+   
+}
+#logo img{
+    border-radius: 50%;
+}
+.card-btn a:hover, .card-btn2 a:hover, .card-btn3 a:hover  {
+    padding: 20px 20px;
+    border-top-left-radius: 20px;
+    transition: ease-in-out 0.2s;
+    background-color: #922B21 ;
+
+}
+.card p{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    
+}
+/* Kontakt*/
+form {
+    font-size: 20px;
+}
+.podaci {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+#ime, #Prezime {
+    width: 50%;
+    margin: 0px 20px;
+    padding: 5px 10px;
+}
+.ulica {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+#ulica {
+    width: 100%;
+}
+.proizvod {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+#sekcija {
+    width: 100%;
+    padding: 5px;
+}
+input {
+    font-size: 20px;
+    padding: 5px;
+    border: 2px solid #1C2833;
+}
+input, textarea, select {
+    border-radius: 10px;
+}
+select {
+    border: 2px solid #1C2833;
+}
+optgroup, option, select, textarea {
+    font-size: 20px;
+}
+.tekst {
+    padding: 20px;
+    width: 100%;
+    font-size: 20px;
+}
+.tekst h2 {
+    margin-bottom: 15px;
+}
+.tekst textarea {
+    padding: 10px;
+}
+.dugme {
+    text-align: right;
+}
+.dugme a {
+    background-color: #ca3e47;
+    padding: 10px 30px;
+    border: 2px solid #1C2833;
+    color: #1C2833;
+    border-radius: 10px;
+    transition: all;
+}
+.dugme a:hover {
+    transition: ease-in 0.2s;
+    background-color: #922B21;
+    padding: 15px 40px;
+}
+.container {
+    
+    background-color: #ECF0F1;
+    padding: 30px 50px;
+    border: 2px solid #1C2833;
+    background-color: #313131;
+    color: #ca3e47;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.email input{
+    width: 100%;
+}
+.email{ 
+    padding: 20px;
+}
+.container h1 {
+    color: #ca3e47;
+}
+
+.vocnadolina {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.vocnadolina p {
+    margin-left: 25px;
+    margin-bottom: auto;
+}
+/*tabela*/
+table{
+    color: #ca3e47;
+    padding: 15px;
+    background-color:#313131;
+    width: 500px;
+}
+table,td,th{
+    border: 1px solid #1C2833;
+    border-collapse: collapse;
+    padding: 15px 25px;
+    height: 150px;
+    width: 550px;
+}
